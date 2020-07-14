@@ -1,148 +1,155 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="apple-touch-icon" sizes="57x57" href="assets/img/apple-icon-57x57.png">
-      <link rel="apple-touch-icon" sizes="60x60" href="assets/img/apple-icon-60x60.png">
-      <link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-icon-72x72.png">
-      <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon-76x76.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-icon-114x114.png">
-      <link rel="apple-touch-icon" sizes="120x120" href="assets/img/apple-icon-120x120.png">
-      <link rel="apple-touch-icon" sizes="144x144" href="assets/img/apple-icon-144x144.png">
-      <link rel="apple-touch-icon" sizes="152x152" href="assets/img/apple-icon-152x152.png">
-      <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-icon-180x180.png">
-      <link rel="icon" type="image/png" sizes="192x192"  href="assets/img/android-icon-192x192.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon-96x96.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
-      <link rel="manifest" href="assets/img/manifest.json">
-      <meta name="msapplication-TileColor" content="#ffffff">
-      <meta name="msapplication-TileImage" content="assets/img/ms-icon-144x144.png">
-      <meta name="theme-color" content="#000000">
 
-<script src="https://use.fontawesome.com/10e40ddfc5.js"></script>
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="v1/assets/img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="v1/assets/img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="v1/assets/img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="v1/assets/img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="v1/assets/img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="v1/assets/img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="v1/assets/img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="v1/assets/img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="v1/assets/img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="v1/assets/img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="v1/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="v1/assets/img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="v1/assets/img/favicon-16x16.png">
+    <link rel="manifest" href="v1/assets/img/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="v1/assets/img/ms-icon-144x144.png">
+    <meta name="theme-color" content="#000000">
 
-<meta property="og:url"                content="http://gyanl.com/" />
-<meta property="og:type"               content="article" />
-<meta property="og:title"              content="Gyan's place on the internet." />
-<meta property="og:description"        content="Good design is as little design as possible." />
-<meta property="og:image"              content="http://gyanl.com/assets/img/og_imagefb.png" />
+    <script src="https://use.fontawesome.com/10e40ddfc5.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
 
-      <script type="text/javascript" src="/assets/js/script.js" ></script>
-		</head>
+    <meta property="og:url" content="http://gyanl.com/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Gyan's place on the internet." />
+    <meta property="og:description" content="Good design is as little design as possible." />
+    <meta property="og:image" content="http://gyanl.com/v1/assets/img/og_imagefb.png" />
+
+    <script type="text/javascript" src="/assets/js/script.js"></script>
+</head>
+
 <body id="index" class="index">
 
-<div class="header-fixed"><p><a href="index.html">Home</a> / <a href="richie.html">Richie</a></div>
-  <div class="blogcontainer">
-  <div class="blogtitle">Richie</div>
-  <div class="blogsubtitle">10 May 2016</div>
-  <div class="blogtxt">
-<p>Richie is a concept for a financial assistance bot I worked on for a hackathon. The idea was simple : keeping track of your money is hard, and Richie tries to be your friend who makes it easy for you. I also thought Richie could be expanded to offer investment advice, and be a one-stop shop for managing your money.
-<p>While we eventually decided to build a Messenger bot because we didn't have enough time, here's how I had initially planned the the interactions for a standalone app.
-      <br><center><img src="/assets/img/richie-screens-1.png"></center>
-    <div class="imgdesc">Richie used a chat based interface to communicate with users. Instead of static onboarding screens, the onboarding takes place as a conversation between Richie and the user.</div>
-      <br></p><center><img src="/assets/img/richie-screens-2.png"></center>
-      <div class="imgdesc">Richie accepts textual input, and asks questions designed to get as specific an input from the user as possible. He also sends tappable suggestions for the user to ask, and messages from Richie appear as notifications just like a contact.</div>
-        <br></p><center><img src="/assets/img/richie-screens-3.png"></center>
-        <div class="imgdesc">Richie sends interactive graphs and charts to the user, and can alert the user when they are spending more than they can afford.</div>
-<p>
-</div>
-</div>
-<div class="UItext">Other Projects</div>
-
-<center>
-  <a href="pmo">
-    <div class="card">
-      <div class="pmo">
-
-    <div class="projectname">PMO India app</div>
-
-        <div class="tags">
-            <div class="projecttag">BLOG</div>
-            <div class="projecttag">UI/UX</div>
-            <div class="projecttag">MOBILE</div>
+    <div class="header-fixed">
+        <p><a href="index.html">Home</a> / <a href="richie.html">Richie</a></div>
+    <div class="blogcontainer">
+        <div class="blogtitle">Richie</div>
+        <div class="blogsubtitle">10 May 2016</div>
+        <div class="blogtxt">
+            <p>Richie is a concept for a financial assistance bot I worked on for a hackathon. The idea was simple : keeping track of your money is hard, and Richie tries to be your friend who makes it easy for you. I also thought Richie could be expanded
+                to offer investment advice, and be a one-stop shop for managing your money.
+                <p>While we eventually decided to build a Messenger bot because we didn't have enough time, here's how I had initially planned the the interactions for a standalone app.
+                    <br>
+                    <center><img src="/v1/assets/img/richie-screens-1.png"></center>
+                    <div class="imgdesc">Richie used a chat based interface to communicate with users. Instead of static onboarding screens, the onboarding takes place as a conversation between Richie and the user.</div>
+                    <br></p>
+                <center><img src="/v1/assets/img/richie-screens-2.png"></center>
+                <div class="imgdesc">Richie accepts textual input, and asks questions designed to get as specific an input from the user as possible. He also sends tappable suggestions for the user to ask, and messages from Richie appear as notifications just like a contact.</div>
+                <br></p>
+            <center><img src="/v1/assets/img/richie-screens-3.png"></center>
+            <div class="imgdesc">Richie sends interactive graphs and charts to the user, and can alert the user when they are spending more than they can afford.</div>
+            <p>
         </div>
+    </div>
+    <div class="UItext">Other Projects</div>
 
-        <div class="projectdesc">Wireframes and interface design for the official app of the Indian Prime Minister’s Office. Created as part of the PMO India app dev contest organised by MyGov and Google.        </div>
-  <div class="readmore">READ MORE <img src="/assets/img/arrow.png" height="10" width="23"></div>
-  </div>
-</div>
-</a>
+    <center>
+        <a href="pmo">
+            <div class="card">
+                <div class="pmo">
 
-  <a href="jobsplane">
-    <div class="card">
-      <div class="jobsplane">
+                    <div class="projectname">PMO India app</div>
 
-    <div class="projectname">Jobsplane</div>
+                    <div class="tags">
+                        <div class="projecttag">BLOG</div>
+                        <div class="projecttag">UI/UX</div>
+                        <div class="projecttag">MOBILE</div>
+                    </div>
 
-        <div class="tags">
-          <div class="projecttag">UI/UX</div>
-            <div class="projecttag">MOBILE</div>
-            <div class="projecttag">WEB</div>
-        </div>
+                    <div class="projectdesc">Wireframes and interface design for the official app of the Indian Prime Minister’s Office. Created as part of the PMO India app dev contest organised by MyGov and Google. </div>
+                    <div class="readmore">READ MORE <img src="/v1/assets/img/arrow.png" height="10" width="23"></div>
+                </div>
+            </div>
+        </a>
 
-        <div class="projectdesc">Android app design for Jobsplane, a job aggregation startup that uses tinder-style cards to help people find the perfect job for them.  </div>
-  <div class="readmore">READ MORE <img src="/assets/img/arrow.png" height="10" width="23"></div>
-  </div>
-</div>
-</a>
+        <a href="jobsplane">
+            <div class="card">
+                <div class="jobsplane">
 
-  <a href="bic">
-    <div class="card">
-      <div class="bic">
+                    <div class="projectname">Jobsplane</div>
 
-    <div class="projectname">Billions in Change</div>
+                    <div class="tags">
+                        <div class="projecttag">UI/UX</div>
+                        <div class="projecttag">MOBILE</div>
+                        <div class="projecttag">WEB</div>
+                    </div>
 
-        <div class="tags">
-          <div class="projecttag">UI/UX</div>
-            <div class="projecttag">MOBILE</div>
-            <div class="projecttag">PROTOTYPE</div>
-        </div>
+                    <div class="projectdesc">Android app design for Jobsplane, a job aggregation startup that uses tinder-style cards to help people find the perfect job for them. </div>
+                    <div class="readmore">READ MORE <img src="/v1/assets/img/arrow.png" height="10" width="23"></div>
+                </div>
+            </div>
+        </a>
 
-        <div class="projectdesc">iOS and Android app design for Billions in Change, an international non-profit organisation. </div>
-  <div class="readmore">READ MORE <img src="/assets/img/arrow.png" height="10" width="23"></div>
-  </div>
-</div>
-</a>
+        <a href="bic">
+            <div class="card">
+                <div class="bic">
 
-</center>
-  <div class="prefooter"></div>
-  <div class="footer">
-<center>
-<a href="https://www.facebook.com/gyanlakhwani">
-<button class="hvr-grow-shadow" type="button" onClick="setAlarm()">
+                    <div class="projectname">Billions in Change</div>
+
+                    <div class="tags">
+                        <div class="projecttag">UI/UX</div>
+                        <div class="projecttag">MOBILE</div>
+                        <div class="projecttag">PROTOTYPE</div>
+                    </div>
+
+                    <div class="projectdesc">iOS and Android app design for Billions in Change, an international non-profit organisation. </div>
+                    <div class="readmore">READ MORE <img src="/v1/assets/img/arrow.png" height="10" width="23"></div>
+                </div>
+            </div>
+        </a>
+
+    </center>
+    <div class="prefooter"></div>
+    <div class="footer">
+        <center>
+            <a href="https://www.facebook.com/gyanlakhwani">
+                <button class="hvr-grow-shadow" type="button" onClick="setAlarm()">
 <i class="fa fa-facebook-official"></i>
 </button>
-</a>
-<a href="https://twitter.com/gyanl">
-<button class="hvr-grow-shadow" type="button" onClick="setAlarm()">
+            </a>
+            <a href="https://twitter.com/gyanl">
+                <button class="hvr-grow-shadow" type="button" onClick="setAlarm()">
 <i class="fa fa-twitter"></i>
 </button>
-</a>
-<a href="https://www.instagram.com/gyanl/">
-<button class="hvr-grow-shadow" type="button" onClick="setAlarm()">
+            </a>
+            <a href="https://www.instagram.com/gyanl/">
+                <button class="hvr-grow-shadow" type="button" onClick="setAlarm()">
 <i class="fa fa-instagram"></i>
 </button>
-</a>
-<a href="https://www.linkedin.com/in/gyanlakhwani">
-<button class="hvr-grow-shadow" type="button">
+            </a>
+            <a href="https://www.linkedin.com/in/gyanlakhwani">
+                <button class="hvr-grow-shadow" type="button">
 <i class="fa fa-linkedin"></i>
 </button>
-</a>
-<a href="https://github.com/gyanl">
-<button class="hvr-grow-shadow" type="button">
+            </a>
+            <a href="https://github.com/gyanl">
+                <button class="hvr-grow-shadow" type="button">
 <i class="fa fa-github"></i>
 </button>
-</a>
-</center>
-   Made with
-   <div class="heart">&hearts;</div>
-   in New Delhi
-</div>
+            </a>
+        </center>
+        Made with
+        <div class="heart">&hearts;</div>
+        in New Delhi
+    </div>
 
-<script src="/assets/js/script.js"></script>
+    <script src="/assets/js/script.js"></script>
 </body>
-</html>
 
+</html>
